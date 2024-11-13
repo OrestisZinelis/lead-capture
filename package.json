@@ -3,15 +3,27 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "start": "concurrently \"npm run dev\" \"php artisan serve\"",
+        "type-check": "vue-tsc --noEmit --skipLibCheck"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@types/node": "^22.9.0",
+        "@vitejs/plugin-vue": "^4.6.2",
+        "@vitejs/plugin-vue-jsx": "^4.1.0",
+        "@vue/tsconfig": "^0.6.0",
         "autoprefixer": "^10.4.20",
-        "axios": "^1.7.4",
-        "concurrently": "^9.0.1",
+        "axios": "^1.7.7",
+        "bootstrap": "^5.2.3",
+        "concurrently": "^9.1.0",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.47",
+        "sass": "^1.56.1",
         "tailwindcss": "^3.4.13",
-        "vite": "^5.0"
+        "typescript": "^5.6.3",
+        "vite": "^5.0",
+        "vue": "^3.2.37",
+        "vue-tsc": "^2.1.10"
     }
 }
