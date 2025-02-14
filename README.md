@@ -4,6 +4,17 @@
 
 This project is designed to capture leads through a modal interface and manage them using a table with inline edit support. Changes to the leads are synchronized with Mailchimp to ensure seamless integration with email marketing campaigns.
 
+
+📷
+
+![Screenshot 2025-02-14 at 2 38 45 PM](https://github.com/user-attachments/assets/a1a49aaa-d912-46f3-8f16-a452081aba79)
+
+![Screenshot 2025-02-14 at 2 36 58 PM](https://github.com/user-attachments/assets/b76b662d-f84d-4273-8fac-80d89fbb10ab)
+
+https://github.com/user-attachments/assets/429c6c39-4eaf-45c3-9f51-26ef7a500ca9
+
+
+
 ## Tech Stack
 
 The following technologies were used in the development of this project:
